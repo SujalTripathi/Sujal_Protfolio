@@ -4,26 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sujal Tripathi</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <!-- Font Awesome Items -->
+  <title>Sujal Tripathi - Full Stack Developer</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coreui/icons/css/coreui-icons.min.css">
+  
+  <!-- Icons & Libraries -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- BootStrap CSS Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
+    integrity="sha514-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div>
+
+  <!-- Navbar with Glassmorphism -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
     <div class="container">
-      <a class="navbar-brand" href="#">Sujal Tripathi</a>
+      <a class="navbar-brand glitch-text" href="#" data-text="ST">
+        <span>ST</span>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,385 +49,702 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#exp">Experience</a>
-          </li> -->
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#skills">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#certi">Certificate</a>
+            <a class="nav-link" href="#certificates">Certificates</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#contact">Contact </a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
-
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Intro Section -->
-<header class="hero-section text-center d-flex align-items-center" style="height: 100vh; background: linear-gradient(to right, #1e3c72, #2a5298); color: white;">
-  <div class="container">
-    <h1 class="display-4 fw-bold" data-aos="fade-up">Hello, I'm <span class="text-warning">Sujal Tripathi</span></h1>
-    <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">A passionate MERN Stack & Full Stack Developer | Software Engineer | DSA Enthusiast in Java</p>
-    <a href="#projects" class="btn btn-warning btn-lg mt-3" data-aos="fade-up" data-aos-delay="400">View My Work</a>
-  </div>
-</header>
 
-<!-- About Section -->
-<section id="about" class="bg-light py-5">
-  <div class="container">
-    <h2 class="text-center mb-4" data-aos="fade-up">About Me</h2>
-    <div class="row align-items-center g-5">
-      <div class="col-md-4">
-        <div class="profile-img-wrapper" data-aos="fade-right">
-          <img src="images/WhatsApp Image 2025-06-10 at 09.42.09_0f219b78.jpg" alt="Sujal Tripathi" class="img-fluid rounded-circle shadow-lg">
-        </div>
-      </div>
-      <div class="col-md-8">
-        <p class="lead">I'm Sujal Tripathi, a developer who turns ideas into reality using the MERN stack and Java. I'm deeply passionate about building interactive web applications and solving challenging problems using efficient data structures and algorithms.</p>
-        <ul class="list-unstyled">
-          <li><strong>📍 Location:</strong> Surat, Gujarat, India</li>
-          <li><strong>📧 Email:</strong> <a href="mailto:sujaltripathi816@gmail.com">sujaltripathi816@gmail.com</a></li>
-          <li><strong>🎓 Education:</strong> B.E. in Computer Engineering</li>
-        </ul>
-        <a href="#projects" class="btn btn-outline-primary mt-3" data-aos="fade-up">See My Work</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
-  <!-- Projects Section -->
-<section id="projects" class="bg-white py-5">
-  <div class="container">
-    <h2 class="text-center mb-5" data-aos="fade-up">Projects</h2>
-    <div class="row g-4">
-
-      <!-- Project 1 -->
-      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card project-card shadow-sm h-100">
-          <img src="images/1743171789273.jpeg" class="card-img-top" alt="Video Meeting App">
-          <div class="card-body text-center">
-            <h5 class="card-title">Virtual Video Meeting Platform</h5>
-            <p class="card-text">A real-time platform for video calls, chat, and screen sharing.</p>
-            <div class="tech-tags mb-2">
-              <span class="badge bg-primary">React</span>
-              <span class="badge bg-dark">Node.js</span>
-              <span class="badge bg-success">WebRTC</span>
-            </div>
-            <a href="https://sujalfrontend.onrender.com/" target="_blank" class="btn btn-outline-primary">Live Demo</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card project-card shadow-sm h-100">
-          <img src="images/1743441228138.jpeg" class="card-img-top" alt="Hotel Listing Platform">
-          <div class="card-body text-center">
-            <h5 class="card-title">Hotel Listing Platform</h5>
-            <p class="card-text">Users can register, list properties, and leave reviews.</p>
-            <div class="tech-tags mb-2">
-              <span class="badge bg-primary">MongoDB</span>
-              <span class="badge bg-warning text-dark">Express</span>
-              <span class="badge bg-info text-dark">EJS</span>
-            </div>
-            <a href="https://wanderlust-n561.onrender.com/listings" target="_blank" class="btn btn-outline-primary">Live Demo</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-        <div class="card project-card shadow-sm h-100">
-          <img src="images/Screenshot 2025-06-10 204851.png" class="card-img-top" alt="AI Chatbot Clone">
-          <div class="card-body text-center">
-            <h5 class="card-title">AI ChatBot Clone</h5>
-            <p class="card-text">An OpenAI-powered chatbot with a clean chat interface.</p>
-            <div class="tech-tags mb-2">
-              <span class="badge bg-danger">OpenAI API</span>
-              <span class="badge bg-dark">Node.js</span>
-              <span class="badge bg-primary">HTML/CSS</span>
-            </div>
-            <a href="https://ai-clone-vmd7.onrender.com/" target="_blank" class="btn btn-outline-primary">Live Demo</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-  <!-- Experienced Section
-  <section id="exp">
+  <!-- Hero Section with Enhanced Animations -->
+  <header id="home" class="hero-section d-flex align-items-center">
     <div class="container">
-      <h2 class="text-center my-5">Experience</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card-shadow-sm border-0">
-            <div class="card-body">
-              <div class="d-flex align-items-center">
-                <div class="rounded-circle bg-warning text-dark d-flex align-items-center justify-content-center"
-                  style="width: 60px; height: 60px;">
-                  <img
-                    src="https://www.citypng.com/public/uploads/preview/cisco-black-logo-hd-png-701751694708581xqutvctmyl.png"
-                    height="20" alt="cisco logo" />
-                   include the Logo of your company -->
-              <!--  </div>
-                <div class="ms-3">
-                  <h4 class="mb-1">Software Developer</h4>
-                  <h6 class="text-muted">Cisco Systems</h6>
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div class="hero-content">
+            <div class="hero-tag" data-aos="fade-down">
+              <span class="pulse-dot"></span>
+              Available for freelance work
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+              Hi, I'm <span class="gradient-text">Sujal Tripathi</span>
+            </h1>
+            <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+              <span class="typing-text"></span>
+            </h2>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+              A passionate Full Stack Developer specializing in MERN stack, crafting beautiful digital experiences 
+              and solving complex problems with clean, efficient code.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+              <a href="#projects" class="btn-primary-custom magnetic-btn">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn-secondary-custom magnetic-btn">
+                <span>Get In Touch</span>
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <div class="hero-socials" data-aos="fade-up" data-aos-delay="500">
+              <a href="https://github.com/SujalTripathi" class="social-icon" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sujaltripathi/" class="social-icon" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/official_sujaltripathi/" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-image-container" data-aos="fade-left" data-aos-delay="200">
+            <div class="floating-card glass-card">
+              <img src="images/WhatsApp Image 2025-06-10 at 09.42.09_0f219b78.jpg" alt="Sujal Tripathi" class="hero-profile-img">
+              <div class="floating-element element-1">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="floating-element element-2">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <div class="floating-element element-3">
+                <i class="fab fa-js-square"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </header>
+
+  <!-- About Section with Enhanced Design -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Get to know me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-content glass-card">
+            <h3 class="about-title">I'm a Developer Who Loves Building Things</h3>
+            <p class="about-text">
+              Hello! I'm Sujal Tripathi, a passionate developer based in Surat, Gujarat. I specialize in building 
+              exceptional digital experiences using the MERN stack and modern web technologies. Super Contributor of hacktoberfest 2025.
+            </p>
+            <p class="about-text">
+              My journey in web development started with a curiosity about how websites work, and it has evolved 
+              into a passion for creating intuitive, user-friendly applications that solve real-world problems.
+            </p>
+            
+            <div class="about-stats">
+              <div class="stat-item">
+                <h4 class="stat-number" data-count="15">0</h4>
+                <p class="stat-label">Projects Completed</p>
+              </div>
+              <div class="stat-item">
+                <h4 class="stat-number" data-count="20">0</h4>
+                <p class="stat-label">Pull Request Merged</p>
+              </div>
+              <div class="stat-item">
+                <h4 class="stat-number" data-count="1">0</h4>
+                <p class="stat-label">Years Experience</p>
+              </div>
+            </div>
+            
+            <div class="about-info">
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Surat, Gujarat, India</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:sujaltripathi816@gmail.com">sujaltripathi816@gmail.com</a>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span>B.E. in Computer Engineering</span>
+              </div>
+            </div>
+            
+            <a href="#contact" class="btn-primary-custom magnetic-btn mt-4">
+              <span>Let's Work Together</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="about-image-wrapper">
+            <div class="image-card glass-card">
+              <img src="images/WhatsApp Image 2025-06-10 at 09.42.09_0f219b78.jpg" alt="Sujal Tripathi" class="about-img">
+              <div class="image-overlay">
+                <div class="overlay-content">
+                  <i class="fas fa-code"></i>
+                  <p>Building the future, one line at a time</p>
                 </div>
+              </div>
+            </div>
+            
+            <!-- Floating Tech Icons -->
+            <div class="tech-float tech-1"><i class="fab fa-html5"></i></div>
+            <div class="tech-float tech-2"><i class="fab fa-css3-alt"></i></div>
+            <div class="tech-float tech-3"><i class="fab fa-js"></i></div>
+            <div class="tech-float tech-4"><i class="fab fa-react"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section with 3D Cards -->
+  <section id="projects" class="section-padding bg-dark">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-description">Check out some of my recent work</p>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="project-card glass-card tilt-card">
+            <div class="project-image">
+              <img src="images/1743171789273.jpeg" alt="Video Meeting Platform">
+              <div class="project-overlay">
+                <a href="https://sujalfrontend.onrender.com/" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">01</div>
+              <h3 class="project-title">Virtual Video Meeting Platform</h3>
+              <p class="project-description">
+                A real-time platform for video calls, chat, and screen sharing with WebRTC integration.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">WebRTC</span>
+                <span class="tech-badge">Socket.io</span>
+              </div>
+              <a href="https://sujalfrontend.onrender.com/" target="_blank" class="project-btn">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="project-card glass-card tilt-card">
+            <div class="project-image">
+              <img src="images/1743441228138.jpeg" alt="Hotel Listing Platform">
+              <div class="project-overlay">
+                <a href="https://wanderlust-n561.onrender.com/listings" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">02</div>
+              <h3 class="project-title">Hotel Listing Platform</h3>
+              <p class="project-description">
+                Full-stack platform where users can register, list properties, and leave reviews.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">EJS</span>
+                <span class="tech-badge">Node.js</span>
+              </div>
+              <a href="https://wanderlust-n561.onrender.com/listings" target="_blank" class="project-btn">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="project-card glass-card tilt-card">
+            <div class="project-image">
+              <img src="images/Screenshot 2025-06-10 204851.png" alt="AI Chatbot">
+              <div class="project-overlay">
+                <a href="https://ai-clone-vmd7.onrender.com/" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">03</div>
+              <h3 class="project-title">AI ChatBot Clone</h3>
+              <p class="project-description">
+                An OpenAI-powered chatbot with a clean interface and natural language processing.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">OpenAI API</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">HTML/CSS</span>
+              </div>
+              <a href="https://ai-clone-vmd7.onrender.com/" target="_blank" class="project-btn">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="https://github.com/SujalTripathi" target="_blank" class="btn-secondary-custom magnetic-btn">
+          <span>View All Projects on GitHub</span>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+<section id="skills" class="py-5 section-padding bg-dark">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Technical Skills</span>
+      <h2 class="section-title">My Tech Stack</h2>
+      <p class="section-description">Technologies I've worked with extensively in projects and academics.</p>
+      <div class="section-divider"></div>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Frontend Skills -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="skills-category glass-card">
+          <h3 class="category-title">
+            <i class="fas fa-laptop-code"></i>
+            Frontend Development
+          </h3>
+          
+          <div class="skills-grid">
+            <div class="skill-badge" data-skill="React.js">
+              <i class="fab fa-react"></i>
+              <span>React.js</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="JavaScript">
+              <i class="fab fa-js-square"></i>
+              <span>JavaScript</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="HTML5">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="CSS3">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3 / SCSS</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="Bootstrap">
+              <i class="fab fa-bootstrap"></i>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Backend & Tools Skills -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="skills-category glass-card">
+          <h3 class="category-title">
+            <i class="fas fa-server"></i>
+            Backend & Tools
+          </h3>
+          
+          <div class="skills-grid">
+            <div class="skill-badge" data-skill="Node.js">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js / Express</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="MongoDB">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="Java">
+              <i class="fab fa-java"></i>
+              <span>Java</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="Git">
+              <i class="fab fa-git-alt"></i>
+              <span>Git</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="Deployment">
+              <i class="fas fa-cloud-upload-alt"></i>
+              <span>Vercel / Render</span>
+            </div>
+            
+            <div class="skill-badge" data-skill="GitHub">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+        <!-- Tools & Technologies -->
+        <div class="col-12" data-aos="fade-up">
+          <div class="skills-category glass-card">
+            <h3 class="category-title">
+              <i class="fas fa-tools"></i>
+              Tools & Technologies
+            </h3>
+            <div class="tools-grid">
+              <div class="tool-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="tool-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-terminal"></i>
+                <span>VS Code</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-cloud"></i>
+                <span>Vercel</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-server"></i>
+                <span>Render</span>
+              </div>
+              <div class="tool-item">
+                <i class="fab fa-npm"></i>
+                <span>NPM</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-code-branch"></i>
+                <span>REST APIs</span>
+              </div>
+              <div class="tool-item">
+                <i class="fas fa-plug"></i>
+                <span>WebRTC</span>
+              </div>
+              <div class="tool-item">
+                <i class="cib-socket-io"></i>
+                <span>Socket.io</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
-
-<!-- Skills Section -->
-<section id="skills" class="bg-light py-5">
-  <div class="container">
-    <h2 class="text-center mb-5" data-aos="fade-up">Skills</h2>
-    <div class="row justify-content-center text-center">
-      <!-- Programming Languages -->
-      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="100">
-        <div class="skill-card">
-          <i class="fab fa-java skill-icon text-primary"></i>
-          <h5>Java</h5>
-        </div>
+  <!-- Certificates Section with Enhanced Cards -->
+  <section id="certificates" class="section-padding bg-dark">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">My Achievements</span>
+        <h2 class="section-title">Certificates & <span class="gradient-text">Awards</span></h2>
+        <div class="section-divider"></div>
       </div>
-      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="200">
-        <div class="skill-card">
-          <i class="fab fa-js-square skill-icon text-warning"></i>
-          <h5>JavaScript</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="300">
-        <div class="skill-card">
-          <i class="fab fa-html5 skill-icon text-danger"></i>
-          <h5>HTML5</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="350">
-        <div class="skill-card">
-          <i class="fab fa-css3-alt skill-icon text-primary"></i>
-          <h5>CSS3</h5>
-        </div>
-      </div>
-
-      <!-- MERN Stack & Frontend -->
-      <div class="col-md-3 mb-4" data-aos="fade-left" data-aos-delay="400">
-        <div class="skill-card">
-          <i class="fab fa-react skill-icon text-info"></i>
-          <h5>React.js</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-left" data-aos-delay="450">
-        <div class="skill-card">
-          <i class="fas fa-database skill-icon text-success"></i>
-          <h5>MongoDB</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-left" data-aos-delay="500">
-        <div class="skill-card">
-          <i class="fab fa-node-js skill-icon text-success"></i>
-          <h5>Node.js / Express</h5>
-        </div>
-      </div>
-
-      <!-- Dev Tools -->
-      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="600">
-        <div class="skill-card">
-          <i class="fab fa-git-alt skill-icon text-danger"></i>
-          <h5>Git</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="650">
-        <div class="skill-card">
-          <i class="fab fa-github skill-icon text-dark"></i>
-          <h5>GitHub</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="700">
-        <div class="skill-card">
-          <i class="fas fa-cloud-upload-alt skill-icon text-secondary"></i>
-          <h5>Vercel</h5>
-        </div>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="750">
-        <div class="skill-card">
-          <i class="fas fa-server skill-icon text-warning"></i>
-          <h5>Render</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-   <!-- Certificates & Achievements Section -->
-<section id="certi" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-4" data-aos="fade-up">Certificates & Achievements</h2>
-    <div class="row g-4 justify-content-center">
-      <!-- Certificate 1 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/certificate_java.jpeg" class="card-img-top rounded-3" alt="Java Programming Foundations">
-          <div class="card-body text-center">
-            <h5 class="card-title">Java Programming Foundations</h5>
-            <p class="card-text">Completed a comprehensive course on Java programming fundamentals.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Certificate 2 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/certificate_microsoft.jpeg" class="card-img-top rounded-3" alt="Microsoft Learn Student Ambassador">
-          <div class="card-body text-center">
-            <h5 class="card-title">Microsoft Learn Student Ambassador</h5>
-            <p class="card-text">Recognized as a Student Ambassador for Microsoft Learn.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Certificate 3 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/Screenshot 2025-06-23 192459.png" class="card-img-top rounded-3" alt="Smart India Hackathon 24">
-          <div class="card-body text-center">
-            <h5 class="card-title">Hidden Leaf Hackathon</h5>
-            <p class="card-text">Participated in the Hidden Leaf Hackathon, Organizied by Devpost.</p>
-          </div>
-        </div>
-      </div>
-       <!-- Certificate 4 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/certifiacte_sih.jpeg" class="card-img-top rounded-3" alt="Microsoft Learn Student Ambassador">
-          <div class="card-body text-center">
-            <h5 class="card-title">Smart India Hackathon(SIH)</h5>
-            <p class="card-text">Participated in the Smart India Hackathon(SIH),As a Team Leader.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Certificate 5 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/Screenshot 2025-06-10 205454.png" class="card-img-top rounded-3" alt="Complete OpenAI Workshop">
-          <div class="card-body text-center">
-            <h5 class="card-title">Complete OpenAI Workshop</h5>
-            <p class="card-text">Completed the OpenAI Workshop to integrate AI into projects.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Certificate 6 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
-        <div class="card border-0 shadow-lg rounded-3">
-          <img src="images/Screenshot 2025-06-10 205820.png" class="card-img-top rounded-3" alt="Complete Bootstrap 5 Workshop">
-          <div class="card-body text-center">
-            <h5 class="card-title">Complete Bootstrap 5 Workshop</h5>
-            <p class="card-text">Completed a workshop on Bootstrap 5.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- Contact Section -->
- <!-- Contact Section -->
-<section id="contact" class="bg-light py-5">
-  <div class="container">
-    <h2 class="text-center mb-5" data-aos="fade-up">Contact Me</h2>
-    <div class="row g-5">
       
-      <!-- Contact Info -->
-      <div class="col-md-5" data-aos="fade-right">
-        <div class="p-4 bg-white border rounded shadow-sm">
-          <h4 class="mb-4">Get In Touch</h4>
-          <p><i class="fa-solid fa-envelope text-primary me-2"></i> <a href="mailto:sujaltripathi816@gmail.com" class="text-decoration-none text-dark">sujaltripathi816@gmail.com</a></p>
-          <p><i class="fa-solid fa-phone text-success me-2"></i> +91 9998490772</p>
-          <p><i class="fa-solid fa-location-dot text-danger me-2"></i> Surat, Gujarat</p>
-
-          <div class="mt-4">
-            <a href="https://www.linkedin.com/in/sujaltripathi/" class="btn btn-outline-primary me-2 mb-2">
-              <i class="fab fa-linkedin me-1"></i> LinkedIn
-            </a>
-            <a href="https://github.com/SujalTripathi" class="btn btn-outline-dark me-2 mb-2">
-              <i class="fab fa-github me-1"></i> GitHub
-            </a>
-            <a href="https://www.instagram.com/official_sujaltripathi/" class="btn btn-outline-danger mb-2">
-              <i class="fab fa-instagram me-1"></i> Instagram
-            </a>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="100">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/certificate_java.jpeg" data-lightbox="certificates" data-title="Java Programming Foundations">
+                <img src="images/certificate_java.jpeg" alt="Java Programming">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              <h3>Java Programming Foundations</h3>
+              <p>Completed comprehensive course on Java programming fundamentals and OOP concepts.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="200">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/certificate_microsoft.jpeg" data-lightbox="certificates" data-title="Microsoft Learn Student Ambassador">
+                <img src="images/certificate_microsoft.jpeg" alt="Microsoft Ambassador">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <h3>Microsoft Learn Student Ambassador</h3>
+              <p>Recognized as a Student Ambassador for Microsoft Learn program.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="300">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/Screenshot 2025-06-23 192459.png" data-lightbox="certificates" data-title="Hidden Leaf Hackathon">
+                <img src="images/Screenshot 2025-06-23 192459.png" alt="Hidden Leaf Hackathon">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h3>Hidden Leaf Hackathon</h3>
+              <p>Participated in the Hidden Leaf Hackathon organized by Devpost.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="100">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/certifiacte_sih.jpeg" data-lightbox="certificates" data-title="Smart India Hackathon">
+                <img src="images/certifiacte_sih.jpeg" alt="SIH">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fas fa-medal"></i>
+              </div>
+              <h3>Smart India Hackathon (SIH)</h3>
+              <p>Participated as Team Leader in Smart India Hackathon.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="200">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/Screenshot 2025-10-22 190408.png" data-lightbox="certificates" data-title="OpenAI Workshop">
+                <img src="images/Screenshot 2025-10-22 190408.png" alt="OpenAI Workshop">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>Full Stack Internship</h3>
+              <p>Completed the internship as a full-stack developer.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="300">
+          <div class="certificate-card ">
+            <div class="certificate-image">
+              <a href="images/Screenshot 2025-10-22 190921.png" data-lightbox="certificates" data-title="Bootstrap 5 Workshop">
+                <img src="images/Screenshot 2025-10-22 190921.png" alt="Bootstrap Workshop">
+                <div class="certificate-overlay">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-content">
+              <div class="certificate-icon">
+                <i class="fab fa-heart"></i>
+              </div>
+              <h3>Tree Certificate</h3>
+              <p>Plant a tree with my name.</p>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Contact Form -->
-      <div class="col-md-7" data-aos="fade-left">
-        <div class="p-4 bg-white border rounded shadow-sm">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label fw-bold">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+  <!-- Contact Section with Glass Card -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-description">Have a project in mind? Let's work together!</p>
+      </div>
+      
+      <div class="row g-5 justify-content-center">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info glass-card">
+            <h3 class="contact-title">Contact Information</h3>
+            <p class="contact-description">
+              Feel free to reach out to me for any opportunities or just to say hi!
+            </p>
+            
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Email</h4>
+                  <a href="mailto:sujaltripathi816@gmail.com">sujaltripathi816@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Phone</h4>
+                  <a href="tel:+919998490772">+91 9998490772</a>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Location</h4>
+                  <p>Surat, Gujarat, India</p>
+                </div>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label fw-bold">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            
+            <div class="social-links">
+              <h4>Follow Me</h4>
+              <div class="social-icons-contact">
+                <a href="https://www.linkedin.com/in/sujaltripathi/" target="_blank" class="social-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/SujalTripathi" target="_blank" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/official_sujaltripathi/" target="_blank" class="social-link">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label fw-bold">Message</label>
-              <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
-            </div>
-            <button type="submit" class="btn btn-warning btn-lg w-100 mt-3">
-              <i class="fa-solid fa-paper-plane me-2"></i>Send Message
-            </button>
-          </form>
+          </div>
+        </div>
+        
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="contact-form-wrapper glass-card">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Your Email *</label>
+                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" class="form-control" placeholder="Project Discussion" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" class="form-control" rows="6" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn-primary-custom magnetic-btn w-100">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Footer -->
-  <footer class="text-center py-3 text-white">
+  <footer class="footer">
     <div class="container">
-      <p class="mb-0">© 2025 Sujal Tripathi. All rights reserved.</p>
-      <p>Follow me on:
-      <a href="https://www.linkedin.com/in/sujaltripathi/" class="text-white
-        mx-2"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/SujalTripathi" class="text-white mx-2"><i
-                class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/official_sujaltripathi/" class="text-white mx-2 "><i
-                class="fa-brands fa-instagram"></i></a>
-
-
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 <span class="gradient-text">Sujal Tripathi</span>. All rights reserved.</p>
+          <p>Designed & Built with <i class="fas fa-heart"></i> by Sujal</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/sujaltripathi/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/SujalTripathi" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/official_sujaltripathi/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </footer>
-  <!-- BootStrap JS Link -->
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  <script src="js/main.js"></script>
 </body>
 
 </html>
