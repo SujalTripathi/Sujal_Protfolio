@@ -99,15 +99,6 @@ cd Sujal_Protfolio
 - This project is hosted manually via **Netlify**.  
 - Any code updates made locally can be re-uploaded via Netlify dashboard to reflect changes live.
 
----
-
-## 📸 Sneak Peek
-
-| Hero Section                        | Projects                                    | Certificates                                |
-| ----------------------------------- | ------------------------------------------- | ------------------------------------------- |
-| ![Hero](images/Screenshot_hero.png) | ![Projects](images/Screenshot_projects.png) | ![Cert](images/Screenshot_certificates.png) |
-
-> Replace these images with your actual screenshots if needed.
 
 ---
 
