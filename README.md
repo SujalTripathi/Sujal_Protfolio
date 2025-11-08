@@ -26,6 +26,12 @@ Personal_Protfolio/
 │   └── style.css
 ├── images/
 │   └── profile, project, certificate images
+├── js/
+│   └── main.js
+├── projects/
+│   ├── virtual-video-meeting-platform.md
+│   ├── hotel-listing-platform.md
+│   └── ai-chatbot-clone.md
 └── README.md
 ```
 
@@ -48,6 +54,29 @@ Personal_Protfolio/
 - ✅ Tech Skills (MERN, Git, etc.)  
 - ✅ Certificates & Achievements  
 - ✅ Contact (form + social handles)  
+
+---
+
+## 🎯 Featured Projects
+
+Explore detailed documentation for each of my featured projects:
+
+### 1. 🎥 [Virtual Video Meeting Platform](projects/virtual-video-meeting-platform.md)
+A real-time video conferencing platform with WebRTC, Socket.io, chat, and screen sharing.
+- **Tech**: React, Node.js, WebRTC, Socket.io
+- **Live**: [Demo](https://sujalfrontend.onrender.com/)
+
+### 2. 🏨 [Wanderlust - Hotel Listing Platform](projects/hotel-listing-platform.md)
+Full-stack hotel listing and review platform inspired by Airbnb.
+- **Tech**: MongoDB, Express, EJS, Node.js
+- **Live**: [Demo](https://wanderlust-n561.onrender.com/listings)
+
+### 3. 🤖 [AI ChatBot Clone](projects/ai-chatbot-clone.md)
+Intelligent chatbot powered by OpenAI's GPT API with natural language processing.
+- **Tech**: OpenAI API, Node.js, Express, HTML/CSS
+- **Live**: [Demo](https://ai-clone-vmd7.onrender.com/)
+
+Each project includes comprehensive documentation with tech stack details, features, setup instructions, and screenshots.
 
 ---
 
